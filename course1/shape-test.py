@@ -9,3 +9,7 @@ print(f'Shape of b is {b.shape}')
 # The following does not work because broadcasting doesn't work that way
 # c = a+b
 # print(f'Shape of c is {c.shape}')
+
+# The following does not work because broadcasting doesn't work that way
+# c = a*b
+# print(f'Shape of c is {c.shape}')
