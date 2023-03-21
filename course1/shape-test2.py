@@ -4,6 +4,7 @@ q4_a = np.random.randn(2,3)
 q4_b = np.random.randn(2,1)
 q4_c = q4_a + q4_b
 print(f'q4_c shape is {q4_c.shape}')
+print(f'q4_c shape[0] is {q4_c.shape[0]}')
 
 q5_a = np.random.randn(4,3)
 q5_b = np.random.randn(3,2)
