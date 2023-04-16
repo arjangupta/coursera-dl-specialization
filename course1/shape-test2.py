@@ -23,3 +23,10 @@ for i in range(3):
 print(f'q8_c is {q8_c}')
 q8_c_vectorized = q8_a + q8_b.T
 print(f'q8_c_vectorized is {q8_c_vectorized}')
+
+# Week 2 practice
+example_mat = np.array([[1,2,3],[4,5,6],[7,8,9],[10,11,12]])
+print(f'example_mat is {example_mat}')
+ex_shape = example_mat.shape
+print(f'shape of example_mat is {ex_shape}')
+print(f'ex_shape first dimension is {ex_shape[0]}')
