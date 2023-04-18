@@ -9,3 +9,7 @@ print(f'x_arr shape is {x_arr.shape}')
 flatten_x = x_arr.reshape(1, x_arr.shape[0]*x_arr.shape[1])
 print(f'flatten_x is {flatten_x}')
 print(f'flatten_x shape is {flatten_x.shape}')
+
+# Create an array of 5,3 zeros
+zero_arr = np.zeros((5,3))
+print(f'zero_arr is {zero_arr}')
